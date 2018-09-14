@@ -1,4 +1,38 @@
 {
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+]
+  "engines": {
+    "cordovaDependencies": {
+        PLUGIN_VERSION: {
+            DEPENDENCY: SEMVER_RANGE,
+            DEPENDENCY: SEMVER_RANGE,
+            ...
+        },
+        ...
+    }
+}
+
+"engines": {
+    "cordovaDependencies": {
+        "1.0.0": { "cordova-android": "<3.0.0"},
+        "2.1.0": { "cordova-android": ">4.0.0"}
+    }
+}
+
+"engines": {
+    "cordovaDependencies": {
+        "0.0.1":  { "cordova-ios": ">1.0.0" },
+        "<1.0.0": { "cordova-ios": "<2.0.0" },
+        "<2.0.0": { "cordova-ios": "<5.0.0" }
+    }
+}
+
+  cordova-ios >1.0.0 AND cordova-ios <2.0.0 AND cordova-ios <5.0.0
+  
   "name": "moodlemobile",
   "version": "3.4.2",
   "description": "The official app for Moodle.",
@@ -117,4 +151,6 @@
       "confinement": "classic"
     }
   }
+  
 }
+
