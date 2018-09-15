@@ -15,7 +15,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
 
   <name>Moodle Mobile</name>
   
-  <preference name="phonegap-version" value="cli-4.0.0" />
+  <preference name="phonegap-version" value="cli-1.0.0" />
   <description>
         Moodle Mobile official app
     </description>
