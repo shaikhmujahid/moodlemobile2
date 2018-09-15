@@ -14,8 +14,6 @@
 
 
 
-
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moodle.moodlemobile" version="3.4.2">
   <name>Moodle Mobile</name>
   
   <preference name="phonegap-version" value="cli-6.5.0" />
