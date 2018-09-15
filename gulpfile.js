@@ -1,4 +1,13 @@
 var gulp = require('gulp');
+
+gulp.task('default', function() {
+  // place code for your default task here
+});
+
+
+
+
+var gulp = require('gulp');
 var gutil = require('gulp-util');
 var concat = require('gulp-concat');
 var insert = require('gulp-insert');
