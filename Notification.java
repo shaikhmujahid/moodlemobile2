@@ -1,2 +1,3 @@
-
-PhoneGap >= 4.0.0
+if(inline && android.os.Build.VERSION.SDK_INT < 24 && !startOnBackground){
+    foreground = true;
+}
